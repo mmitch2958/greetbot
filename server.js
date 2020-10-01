@@ -7,8 +7,8 @@ server.get('/', (req, res) => {
         environment: process.env.NODE_ENV,
     })
 })
-server.get('/', (req, res) => {
-    res.status(200).json({ hello: 'hello' });
-});
+// server.get('/', (req, res) => {
+//     res.status(200).json({ hello: 'hello' });
+// });
 
 module.exports = server;
